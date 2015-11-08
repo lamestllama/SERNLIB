@@ -43,18 +43,7 @@ extern double exponential(double L, double unused, double q, double d);
 extern double maxentropy(double s, double unused, double q, double d);
 
 
-
-static ProbabilityFunction  probabilityFunctions[] =
-    {   waxman,
-        clipped_waxman,
-        waxman_transition_threshold,
-        threshold,
-        constant,
-        powerlaw,
-        cauchy,
-        exponential,
-        maxentropy
-    };
+extern ProbabilityFunction  probabilityFunctions[];
 
 
 #endif /* defined(__conSERN__edgeprobfuncs__) */
