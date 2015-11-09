@@ -16,13 +16,6 @@
 #endif
 
 
-DistanceFunction  distanceFunctions[] =
-{   euclidean,
-    manhattan,
-    discrete,
-    maxdist
-};
-
 double euclidean(double xdiff, double ydiff)
 {
     return sqrt(xdiff * xdiff + ydiff * ydiff);

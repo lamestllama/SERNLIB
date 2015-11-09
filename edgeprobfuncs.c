@@ -10,19 +10,6 @@
 
 #include "edgeprobfuncs.h"
 
-
-ProbabilityFunction  probabilityFunctions[] =
-{   waxman,
-    clipped_waxman,
-    waxman_transition_threshold,
-    threshold,
-    constant,
-    powerlaw,
-    cauchy,
-    exponential,
-    maxentropy
-};
-
 #ifndef max
 #define max(a,b) (((a) > (b)) ? (a) : (b))
 #define min(a,b) (((a) < (b)) ? (a) : (b))

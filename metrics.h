@@ -20,7 +20,12 @@ extern double manhattan(double xdiff, double ydiff);
 extern double maxdist(double xdiff, double ydiff);
 extern double discrete(double xdiff, double ydiff);
 
-extern DistanceFunction  distanceFunctions[];
 
+static DistanceFunction  distanceFunctions[] =
+{   euclidean,
+    manhattan,
+    discrete,
+    maxdist
+};
 
 #endif /* defined(__conSERN__metrics__) */
